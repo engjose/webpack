@@ -1,0 +1,15 @@
+{
+  "name": "webpack-shopping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --progress --color --hot --inline"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "3.4.1",
+    "webpack-dev-server": "2.6.1"
+  }
+}
