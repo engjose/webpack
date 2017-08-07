@@ -14,5 +14,10 @@ module.exports = {
         path: path.join(__dirname, 'dist'),
         publicPath: '/dist/',
         filename: '[name].bundle.js'
-    }
+    },
+    module: {
+    loaders:[
+      { test: /\.css$/, loader: 'style-loader!css-loader' }
+    ]
+  }
 };
